@@ -1,0 +1,5 @@
+Azure as a Cloud Solution Provider (CSP) partner, transact across Microsoft cloud services (i.e., Azure, O365, Enterprise Mobility Suite and Dynamics CRM Online) 
+through a single platform. CSP enables partners to: own the customer lifecycle and relationship end-to-end; 
+set the price, terms and directly bill customers; directly provision and manage subscriptions; 
+attach value-added services; and be the first point of contact for customer support.
+
