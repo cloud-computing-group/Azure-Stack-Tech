@@ -1,0 +1,58 @@
+Microsoft Azure is a cloud computing service created by Microsoft for building, deploying, 
+and managing applications and services through a global network of Microsoft-managed data centers. 
+It provides software as a service, platform as a service and infrastructure as a service 
+and supports many different programming languages, tools and frameworks, 
+including both Microsoft-specific and third-party software and systems.
+
+Services
+Microsoft lists over 600 Azure services, of which some are covered below:
+
+Compute
+Virtual machines, infrastructure as a service (IaaS) allowing users to launch general-purpose Microsoft Windows and Linux virtual machines, as well as preconfigured machine images for popular software packages.
+App services, platform as a service (PaaS) environment letting developers easily publish and manage Web sites.
+Websites, high density hosting of websites allows developers to build sites using ASP.NET, PHP, Node.js, or Python and can be deployed using FTP, Git, Mercurial, Team Foundation Server or uploaded through the user portal. This feature was announced in preview form in June 2012 at the Meet Microsoft Azure event. Customers can create websites in PHP, ASP.NET, Node.js, or Python, or select from several open source applications from a gallery to deploy. This comprises one aspect of the platform as a service (PaaS) offerings for the Microsoft Azure Platform. It was renamed to Web Apps in April 2015.
+WebJobs, applications that can be deployed to a Web App to implement background processing. That can be invoked on a schedule, on demand or can run continuously. The Blob, Table and Queue services can be used to communicate between Web Apps and Web Jobs and to provide state.
+
+Mobile services
+Mobile Engagement collects real-time analytics that highlight users’ behavior. It also provides push notifications to mobile devices.
+HockeyApp can be used to develop, distribute, and beta-test mobile apps
+
+Storage services
+Storage Services provides REST and SDK APIs for storing and accessing data on the cloud.
+Table Service lets programs store structured text in partitioned collections of entities that are accessed by partition key and primary key. It's a NoSQL non-relational database.
+Blob Service allows programs to store unstructured text and binary data as blobs that can be accessed by a HTTP(S) path. Blob service also provides security mechanisms to control access to data.
+Queue Service lets programs communicate asynchronously by message using queues.
+File Service allows storing and access of data on the cloud using the REST APIs or the SMB protocol.
+
+Data management
+    Azure Search provides text search and a subset of OData's structured filters using REST or SDK APIs.
+    DocumentDB is a NoSQL database service that implements a subset of the SQL SELECT statement on JSON documents.
+    Redis Cache is a managed implementation of Redis.
+    StorSimple manages storage tasks between on-premises devices and cloud storage.
+    SQL Database, formerly known as SQL Azure Database, works to create, scale and extend applications into the cloud using Microsoft SQL Server technology. It also integrates with Active Directory and Microsoft System Center and Hadoop.
+    SQL Data Warehouse is a data warehousing service designed to handle computational and data intensive queries on datasets exceeding 1TB.
+
+Messaging
+The Microsoft Azure Service Bus allows applications running on Azure premises or off premises devices to communicate with Azure. This helps to build scalable and reliable applications in a service-oriented architecture (SOA). The Azure service bus supports four different types of communication mechanisms:
+    Event Hubs, which provide event and telemetry ingress to the cloud at massive scale, with low latency and high reliability. For example an event hub can be used to track data from cell phones such as a GPS location coordinate in real time.
+    Queues, which allow one-directional communication. Sender application would send the message to the service bus queue, and receiver would read from the queue. Though there can be multiple readers for the queue only one would process a single message.
+    Topics, which provide one-directional communication using a subscriber pattern. It's similar to queue, however each subscriber will receive a copy of the message send to a Topic. Optionally the subscriber can filter down messages based on specific criteria defined by the subscriber.
+    Relays, which provide bi-directional communication. Unlike queues and topics, a relay doesn't store in-flight messages into its own memory. Instead, it just passes them on to the destination application.
+
+Media services
+A PaaS offering that can be used for encoding, content protection, streaming, or analytics.
+
+CDN
+A global content delivery network (CDN) for audio, video, applications, images, and other static files. Can be used to cache static assets of websites geographically closer to users to increase performance. The network can be managed by a REST based HTTP API.
+Azure has 30 point of presence locations worldwide (also known as Edge locations) as of December, 2016.
+
+Developer
+Application Insights
+Visual Studio Team Services
+
+Management
+Azure Automation, provides a way for users to automate the manual, long-running, error-prone, and frequently repeated tasks that are commonly performed in a cloud and enterprise environment. It saves time and increases the reliability of regular administrative tasks and even schedules them to be automatically performed at regular intervals. You can automate processes using runbooks or automate configuration management using Desired State Configuration.
+Microsoft SMA (software)
+
+Machine Learning
+Microsoft Azure Machine Learning (Azure ML) service is part of Cortana Intelligence Suite that enables predictive analytics and interaction with data using natural language and speech through Cortana.
